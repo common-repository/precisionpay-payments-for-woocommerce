@@ -1,0 +1,42 @@
+.payment_method_wc_gateway_precisionpay label img {
+  max-height: 40px;
+}
+
+.payment_method_wc_gateway_precisionpay p {
+  margin-bottom: 20px;
+}
+
+.wc-precisionpay-form #precisionpay-link-button {
+  color: white;
+  border-radius: 50px;
+  font-size: 18px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+  gap: 8px;
+  border: none;
+  padding: 15px;
+  text-transform: uppercase;
+}
+.wc-precisionpay-form  #precisionpay-link-button:hover {
+  filter: brightness(125%);
+}
+.wc-precisionpay-form #precisionpay-link-button img {
+  width: 24px;
+  height: 30px;
+  margin: 0 !important;
+  float: none !important;
+}
+#precisionpay-login-section {
+  padding: 10px 0;
+  font-size: 16px;
+}
+#precisionpay-login-section a {
+  color: #f15a29;
+}
+.wc-precisionpay-form .clear {
+  height: 0;
+  overflow: hidden;
+}
